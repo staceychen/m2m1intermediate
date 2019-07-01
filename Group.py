@@ -9,11 +9,12 @@ class group:
         self.lng = lng
         
     def get_name(self):
+        global cnt
         name = self.patentname + "_"
         if self.isLocal:
             name += "L"
         else:
-            name += "R" + cnt
+            name += "R" + str(cnt)
             cnt += 1
         return name
     
