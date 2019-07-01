@@ -1,2 +1,2 @@
 # m2m1intermediate
-convertsmodule 2    
+converts module 2 output to module 1 input  
